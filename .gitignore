@@ -1,3 +1,4 @@
-  .env
-   ebook_content.json
-   node_modules/
+.env
+ebook_content.json
+node_modules/
+deployment/node_modules/
