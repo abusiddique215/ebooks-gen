@@ -1,0 +1,20 @@
+{
+  "name": "ebook-generator",
+  "version": "1.0.0",
+  "type": "module",
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.0.0",
+    "@aws-sdk/client-secrets-manager": "^3.0.0",
+    "openai": "^4.60.0",
+    "dotenv": "^16.4.5"
+  },
+  "main": "example.js",
+  "scripts": {
+    "start": "node example.js",
+    "postinstall": "pip install python-docx"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
